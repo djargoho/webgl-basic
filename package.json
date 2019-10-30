@@ -1,0 +1,28 @@
+{
+  "name": "webglbasic",
+  "version": "0.0.1",
+  "description": "webGL basic for study",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development && webpack-dev-server",
+    "build": "set NODE_ENV=production&&webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mordiumaco/webGL-Basic.git"
+  },
+  "keywords": [
+    "webgl"
+  ],
+  "author": "jaehyoen-choi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-loader": "8",
+    "copy-webpack-plugin": "^5.0.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
