@@ -1,5 +1,7 @@
 import test from "./src/test";
+// import helloworld from "./src/webgl-basic/helloworld";
+import only2d from "./src/webgl-basic/only2d";
 
 const appElement = document.getElementById("app");
 
-appElement.append("content1 아까는 안됐잖아!! Fucking!" + test);
+appElement.append("WebGL Basic Triangle");
