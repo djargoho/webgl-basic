@@ -1,3 +1,3 @@
-const test = "되는겨?";
+const test = "test 쪽 파일임되는겨?";
 
 export default test;
