@@ -113,10 +113,10 @@ function main() {
   gl.uniform2f(resolutionUniformLocation, gl.canvas.width, gl.canvas.height);
 
   // draw 50 random rectangles in random colors
-  for (var ii = 0; ii < 1000000; ++ii) {
+  for (var ii = 0; ii < 20; ++ii) {
     // Put a rectangle in the position buffer
 
-    setRectangle(gl, randomInt(600), randomInt(600), 1, 1);
+    setRectangle(gl, randomInt(600), randomInt(600), 50, 50);
 
     // Set a random color.
     gl.uniform4f(colorLocation, Math.random(), Math.random(), Math.random(), 1);
